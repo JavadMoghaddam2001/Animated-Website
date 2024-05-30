@@ -1,0 +1,64 @@
+@import "./root.scss";
+
+@font-face {
+  font-family: Aeonik-Regular;
+  src: url(../../public/fonts/AeonikTRIAL-Regular.otf);
+}
+@font-face {
+  font-family: Dahlia;
+  src: url(../../public/fonts/Dahlia1.otf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+button,
+textarea {
+  font-family: inherit;
+}
+
+:root {
+  --gutter: 24px;
+  --grid-width: calc(100% - var(--gutter) * 2);
+  --grid-columns: 12;
+  --theme-color: #1d32f5;
+  --theme-text-color: black;
+  --theme-oposite-color: white;
+}
+main {
+  // height: 1200vh;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Aeonik-Regular;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin: 0 auto;
+  width: var(--grid-width);
+}
+
+.is-visible {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
