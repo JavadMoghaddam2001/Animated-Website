@@ -66,7 +66,7 @@ export default function Grids() {
         <ul id="grid-list" className={"grid"}>
           <li>
             <div className={styles["grid-view"]}>
-              <img src="../../../public/media/pic1.jpg" alt="" />
+              <img src="/media/pic1.jpg" alt="" />
             </div>
             <div className={styles["grid-titles"]}>
               <span>CAPTION 2023</span>
@@ -76,7 +76,7 @@ export default function Grids() {
           </li>
           <li>
             <div className={styles["grid-view"]}>
-              <img src="../../../public/media/pic1.jpg" alt="" />
+              <img src="/media/pic1.jpg" alt="" />
             </div>
             <div className={styles["grid-titles"]}>
               <span>CAPTION 2023</span>
@@ -86,7 +86,7 @@ export default function Grids() {
           </li>
           <li>
             <div className={styles["grid-view"]}>
-              <img src="../../../public/media/pic1.jpg" alt="" />
+              <img src="/media/pic1.jpg" alt="" />
             </div>
             <div className={styles["grid-titles"]}>
               <span>CAPTION 2023</span>
@@ -96,7 +96,7 @@ export default function Grids() {
           </li>
           <li>
             <div className={styles["grid-view"]}>
-              <img src="../../../public/media/pic1.jpg" alt="" />
+              <img src="/media/pic1.jpg" alt="" />
             </div>
             <div className={styles["grid-titles"]}>
               <span>CAPTION 2023</span>
@@ -106,7 +106,7 @@ export default function Grids() {
           </li>
           <li>
             <div className={styles["grid-view"]}>
-              <img src="../../../public/media/pic1.jpg" alt="" />
+              <img src="/media/pic1.jpg" alt="" />
             </div>
             <div className={styles["grid-titles"]}>
               <span>CAPTION 2023</span>
